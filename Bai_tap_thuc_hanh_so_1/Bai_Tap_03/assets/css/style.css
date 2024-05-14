@@ -1,0 +1,10 @@
+.main-wrapper{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+td,th,tr{
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
