@@ -1,0 +1,21 @@
+/* Custom CSS */
+
+.heading-title {
+    color: brown;
+}
+
+.heading-dot {
+    margin-left: 32px;
+    height: auto;
+    background-color: brown;
+    color: brown;
+}
+
+.course-container {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.course-container .card-text {
+    margin-bottom: 0.5rem;
+}
