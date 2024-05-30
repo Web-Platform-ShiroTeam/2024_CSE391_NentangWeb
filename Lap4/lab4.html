@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ứng dụng quản lý sinh viên</title>
+    <style>
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid #ddd; padding: 8px; }
+        input[type=text], input[type=date] { width: 100%; padding: 8px; }
+        button { padding: 8px 16px; background-color: #4CAF50; color: white; border: none; }
+    </style>
+</head>
+<body>
+    <h1>Thêm sinh viên</h1>
+    <form id="studentForm">
+        <label for="hoTen">Họ tên:</label>
+        <input type="text" id="hoTen" name="hoTen" required>
+        <br>
+        <label for="maSV">Mã số sinh viên:</label>
+        <input type="text" id="maSV" name="maSV" required>
+        <br>
+        <label for="ngaySinh">Ngày sinh:</label>
+        <input type="date" id="ngaySinh" name="ngaySinh" required>
+        <br>
+        <label for="lop">Lớp:</label>
+        <input type="text" id="lop" name="lop" required>
+        <br>
+        <button type="submit">Thêm sinh viên</button>
+    </form>
+    <h2>Danh sách sinh viên</h2>
+    <table id="studentTable">
+        <thead>
+            <tr>
+                <th>Họ tên</th>
+                <th>Mã số sinh viên</th>
+                <th>Ngày sinh</th>
+                <th>Lớp</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Dữ liệu sinh viên sẽ được hiển thị ở đây -->
+        </tbody>
+    </table>
+    <script src="lab4.js"></script>
+</body>
+</html>
